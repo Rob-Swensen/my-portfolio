@@ -7,9 +7,13 @@
     align-items: center;
     border-bottom: 1px solid black;
     box-shadow: 3px 1px 10px lightgray;
+    font-family: 'Roboto', sans-serif;
 
     a {
         margin: 20px;
         font-size: 30px;
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
     }
 }
