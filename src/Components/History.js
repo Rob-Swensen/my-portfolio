@@ -6,12 +6,10 @@ function History() {
     <div className="history-section">
       <h1 className="section-header"> - From There to Here - </h1>
       <section className="details">
-        <div className="image-container">
-          <img
-            src="https://d.newsweek.com/en/full/1533980/devmountain-logo-lockup-blue.png"
-            alt="dev mountain"
-          />
-        </div>
+        <img
+          src="https://d.newsweek.com/en/full/1533980/devmountain-logo-lockup-blue.png"
+          alt="dev mountain"
+        />
         <section className="history-text">
           <h2>DevMountain Web Development Graduate</h2>
           <h3>Web Developer Student from February - May 2020</h3>
@@ -34,12 +32,10 @@ function History() {
         </section>
       </section>
       <section className="details">
-        <div className="image-container">
-          <img
-            src="https://www.improvediagnosis.org/wp-content/uploads/2019/11/intermountain-transparent.png"
-            alt="dev mountain"
-          />
-        </div>
+        <img
+          src="https://www.improvediagnosis.org/wp-content/uploads/2019/11/intermountain-transparent.png"
+          alt="intermountain healthcare"
+        />
         <section className="history-text">
           <h2>Intermountain Healthcare</h2>
           <h3>Intensive Care Registered Nurse from April 2016 - Present</h3>
@@ -58,6 +54,11 @@ function History() {
         </section>
       </section>
       <section className="details">
+      <img
+      className='uvu-img'
+          src="https://www.kuer.org/sites/kuer/files/styles/x_large/public/201710/20160518_boom_truck_campus_0056.jpg"
+          alt="utah valley university"
+        />
         <section className="history-text">
           <h2>Utah Valley University</h2>
           <h3>Bachelor's Degree in Nursing from September 2010 - May 2016</h3>
