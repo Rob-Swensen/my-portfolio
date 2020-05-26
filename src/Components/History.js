@@ -11,7 +11,14 @@ function History() {
           alt="dev mountain"
         />
         <section className="history-text">
-          <h2>DevMountain Web Development Graduate</h2>
+          <a
+            className="h2"
+            target="_blank"
+            rel="noopener noreferrer"
+            href={"https://www.devmountain.com"}
+          >
+            DevMountain Web Development Graduate
+          </a>
           <h3>Web Developer Student from February - May 2020</h3>
           <p>
             Learned HTML, CSS, Javascript, React.js, Node.js, Github, Express,
@@ -37,7 +44,14 @@ function History() {
           alt="intermountain healthcare"
         />
         <section className="history-text">
-          <h2>Intermountain Healthcare</h2>
+        <a
+            className="h2"
+            target="_blank"
+            rel="noopener noreferrer"
+            href={"https://intermountainhealthcare.org"}
+          >
+            Intermountain Healthcare
+          </a>
           <h3>Intensive Care Registered Nurse from April 2016 - Present</h3>
           <p>
             5 years working in Cardiovascular and Thoracic Intensive Care Units.
@@ -54,13 +68,20 @@ function History() {
         </section>
       </section>
       <section className="details">
-      <img
-      className='uvu-img'
+        <img
+          className="uvu-img"
           src="https://www.kuer.org/sites/kuer/files/styles/x_large/public/201710/20160518_boom_truck_campus_0056.jpg"
           alt="utah valley university"
         />
         <section className="history-text">
-          <h2>Utah Valley University</h2>
+        <a
+            className="h2"
+            target="_blank"
+            rel="noopener noreferrer"
+            href={"https://uvu.edu"}
+          >
+            Utah Valley University
+          </a>
           <h3>Bachelor's Degree in Nursing from September 2010 - May 2016</h3>
           <p>
             5 years working in Cardiovascular and Thoracic Intensive Care Units.
