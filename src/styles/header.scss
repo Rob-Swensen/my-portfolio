@@ -8,6 +8,10 @@
     border-bottom: 1px solid black;
     box-shadow: 3px 1px 10px lightgray;
     font-family: 'Roboto', sans-serif;
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+    background-color: white;
 
     a {
         margin: 20px;

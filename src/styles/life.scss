@@ -1,0 +1,29 @@
+.life-section {
+    background-color: #d3e0e3;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    h2 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    a, p {
+        font-size: 24px;
+        text-decoration: none;
+        color: black;
+        font-family: 'Anton', sans-serif;
+        font-weight: 500;
+        letter-spacing: .5px;
+    }
+
+    a:hover {
+        color: white;
+    }
+
+    .line {
+        margin: 20px;
+    }
+}
