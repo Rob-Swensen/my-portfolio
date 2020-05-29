@@ -26,7 +26,7 @@ function Life() {
               "https://www.inc.com/peter-economy/15-surprising-things-i-have-learned-about-loyalty.html"
             }
           >
-            Loyalty
+            LOYALTY
           </a>{" "}
           and{" "}
           <a
@@ -34,9 +34,18 @@ function Life() {
             rel="noopener noreferrer"
             href={"https://www.psychologytoday.com/us/basics/productivity"}
           >
-            Productivity
+            PRODUCTIVITY
           </a>
         </p>
+        <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href={
+              "https://www.efrontlearning.com/blog/2017/02/adapting-technology-workplace.html"
+            }
+          >
+            Be flexible in a fast-changing world
+          </a>
       </section>
     </div>
   );
