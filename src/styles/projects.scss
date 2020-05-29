@@ -1,0 +1,58 @@
+@import "./variables";
+
+.projects {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    font-size: 30px;
+    color: black;
+    margin: 30px;
+    font-family: $fontFamilyRoboto;
+  }
+}
+
+.project-section {
+  display: flex;
+  width: 900px;
+  margin-top: 20px;
+  margin-bottom: 80px;
+
+  .project-image {
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 1px solid black;
+  }
+}
+
+.project-text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 40px;
+
+  h2 {
+    font-family: $fontFamilyRoboto;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+  }
+
+  .position-title {
+    font-family: $fontFamilyRoboto;
+    color: #0398fc;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-top: 10px;
+  }
+
+  .project-description {
+      font-family: $fontFamilyParagraph;
+      margin-top: 15px;
+      font-size: 16px;
+      text-align: left;
+  }
+}
